@@ -1,0 +1,48 @@
+/* reset */
+* {margin: 0; padding: 0; font-size: 16px;}
+a {color: #333; text-decoration: none;}
+li {list-style: none;}
+.clearfix::before, .clearfix::after {content: ''; display: block; clear: both;}
+
+/* warp */
+#warp {width: 1000px; margin: 0 auto;}
+
+/* header */
+#header h1 {float: left; padding: 15px 0 10px;}
+#header h1 img {width: 110px;}
+#header .nav {float: right; background: #FFEAD0;}
+#header .nav li {position: relative; float: left; width: 140px; text-align: center;}
+#header .nav li a {display: block; font-size: 18px; font-weight: bold; padding: 24px 20px 20px 20px;}
+#header .nav li a:hover {background: #ccc;}
+#header .nav li ul.submenu {position: absolute; left: 0; top: 67px; z-index: 100;}
+#header .nav li ul.submenu li a {padding: 10px; background: #FFE0C6;}
+#header .nav li ul.submenu li a:hover {background: #666;}
+
+/* banner */
+#banner {height: 389px; overflow: hidden;}
+#banner img {width: 100%; display: block;}
+
+/* 좌우 */
+.slideList {position: relative; width: 3000px; z-index: 50;}
+.slideList .slideImg {position: relative; width: 1000px; float: left;}
+
+#content1 .right .btn em {font-size: 13px; color: 999; font-style: normal;}
+/*명언 및 문구*/
+#contents {margin-top: 20px; height: 128px;}
+#contents img {width: 100%} 
+
+/*mockup*/
+#mockup {margin-top: 19px;}
+.best figure {float: left; width: 31.33%; margin-top: 1%; margin-right: 1%;  margin-left: 1%; text-align: center;}
+.best figure img{width: 100%;}
+.best figure:last-child{margin-right: 0;}
+
+/* footer */
+#footer {padding: 20px 0; background: #FFFFFF; margin-top: 30px;}
+#footer h2 {float: right; padding-right: 20px;}
+#footer h2 img {width: 150px;}
+#footer .foot {float: left; padding-left: 10px;}
+#footer .foot ul {padding-bottom: 10px;}
+#footer .foot ul li{display: inline;}
+#footer .foot ul li a{color: #aaaaaa; padding-left: 0px;}
+#footer .foot address {font-style: normal; color: #aaaaaa;}
